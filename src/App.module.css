@@ -1,0 +1,51 @@
+.wrapper {
+  max-width: 70rem;
+  margin: 5.68rem auto;
+
+  display: grid;
+  grid-template-columns: 46rem;
+  justify-content: center;
+}
+
+.infoTasks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoTasks label {
+  font-size: 0.87rem;
+  font-weight: 700;
+}
+
+.infoTasks span {
+  color: #fff;
+  font-size: 0.75rem;
+  background: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+}
+
+.infoTasksCreated {
+  color: var(--blue);
+}
+
+.infoTasksCompleted {
+  color: var(--purple);
+}
+
+.tasksEmpty {
+  display: grid;
+  justify-items: center;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+.tasksEmpty img {
+  padding: 4rem 0 1rem;
+}
+
+.tasksEmpty label {
+  font-weight: 700;
+  color: var(--gray-300);
+}

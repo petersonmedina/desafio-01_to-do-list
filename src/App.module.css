@@ -1,6 +1,7 @@
 .wrapper {
   max-width: 70rem;
   margin: 5.68rem auto;
+  padding: 0 1rem;
 
   display: grid;
   grid-template-columns: 46rem;
@@ -48,4 +49,13 @@
 .tasksEmpty label {
   font-weight: 700;
   color: var(--gray-300);
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
 }
